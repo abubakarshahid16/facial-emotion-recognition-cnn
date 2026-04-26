@@ -2,6 +2,10 @@
 
 A deep-learning project for facial emotion recognition using convolutional neural networks. The repository is centered on notebook-based experimentation and a written project report that documents the modeling workflow and results.
 
+## Visual Overview
+
+![Facial emotion project overview](docs/screenshots/emotion-overview.svg)
+
 ## Overview
 
 This project focuses on emotion classification from face images using CNN-based deep learning techniques. The main repository artifacts suggest an academic or assignment-style workflow with:
@@ -14,6 +18,7 @@ This project focuses on emotion classification from face images using CNN-based 
 
 - `deep-learning-assignment.ipynb`: main experimentation notebook
 - `Multi-Task Emotion Recognition using Deep Learning.pdf`: supporting project report
+- `docs/screenshots/emotion-overview.svg`: README-ready visual summary of the workflow
 
 ## Project Focus
 
