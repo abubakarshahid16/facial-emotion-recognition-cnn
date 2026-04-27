@@ -1,4 +1,4 @@
-# Facial Emotion Detector Using CNN
+# Facial Emotion Recognition CNN
 
 A computer-vision project focused on **facial emotion recognition** with convolutional neural networks.
 
