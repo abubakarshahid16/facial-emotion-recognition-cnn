@@ -1,63 +1,64 @@
 # Facial Emotion Detector Using CNN
 
-A deep-learning project for facial emotion recognition using convolutional neural networks. The repository is centered on notebook-based experimentation and a written project report that documents the modeling workflow and results.
+A computer-vision project focused on **facial emotion recognition** with convolutional neural networks.
 
-## Visual Overview
+This repository is best understood as a **notebook-driven deep-learning workflow** backed by a supporting written report. It is positioned as a practical affective-computing project rather than a polished end-user application.
+
+## Problem this project solves
+
+Human emotion signals are useful in systems such as:
+
+- learning and tutoring tools
+- human-computer interaction research
+- accessibility and assistive interfaces
+- customer-feedback and engagement analysis
+
+The challenge is that facial expressions vary in lighting, pose, intensity, and image quality. A model must learn to distinguish subtle visual cues across multiple emotional categories.
+
+This project explores that problem using CNN-based image classification.
+
+## What this project does
+
+The repository focuses on:
+
+- image-based facial emotion classification
+- CNN model experimentation in Jupyter
+- model training and evaluation
+- documented methodology through an attached PDF report
+
+## Visual overview
 
 ![Facial emotion project overview](docs/screenshots/emotion-overview.svg)
 
-## Overview
-
-This project focuses on emotion classification from face images using CNN-based deep learning techniques. The main repository artifacts suggest an academic or assignment-style workflow with:
-
-- model experimentation in Jupyter
-- deep-learning training and evaluation
-- supporting written documentation in PDF form
-
-## Repository Contents
+## Repository contents
 
 - `deep-learning-assignment.ipynb`: main experimentation notebook
-- `Multi-Task Emotion Recognition using Deep Learning.pdf`: supporting project report
-- `docs/screenshots/emotion-overview.svg`: README-ready visual summary of the workflow
+- `Multi-Task Emotion Recognition using Deep Learning.pdf`: written project report
+- `docs/screenshots/emotion-overview.svg`: visual project summary
 
-## Project Focus
+## Why this project matters
 
-The repository is intended to show work in:
+- It demonstrates practical deep-learning workflow in computer vision.
+- It shows interest in affective computing and facial analysis.
+- It includes both implementation and written project documentation.
+- It works well as a research or academic portfolio artifact.
 
-- computer vision for emotion recognition
-- CNN-based classification
-- deep-learning experimentation in notebook form
-- documented model analysis through the attached report
-
-## Why This Project Matters
-
-This is a useful portfolio project because it demonstrates:
-
-- practical computer-vision modeling
-- deep-learning workflow in Jupyter
-- interest in affective computing / facial analysis
-- documentation of a complete modeling task rather than isolated code fragments
-
-## Running the Project
-
-The core implementation is in:
-
-```text
-deep-learning-assignment.ipynb
-```
-
-Typical workflow:
+## Typical workflow
 
 1. open the notebook in Jupyter or Colab
-2. install required deep-learning dependencies if needed
+2. install required deep-learning dependencies
 3. run the notebook cells sequentially
-4. review the accompanying PDF report for methodology and conclusions
+4. review the PDF report for methodology, modeling choices, and conclusions
 
-## Current Repository Status
+## Industrial positioning
 
-This repo is best understood as a documented notebook-based deep-learning project rather than a packaged application. If expanded later, it could benefit from an explicit requirements file, sample outputs, and exported result images in the README.
+A production-ready emotion-recognition system would need much more than a training notebook. For example:
 
-## Author
+- curated and balanced datasets
+- bias and fairness evaluation
+- real-time inference optimization
+- camera input handling
+- privacy and consent safeguards
+- reliability testing across lighting and pose conditions
 
-Abubakar Shahid  
-GitHub: <https://github.com/abubakarshahid16>
+That means this repository is best presented as a **deep-learning foundation project** for emotion recognition, not a finished product.
